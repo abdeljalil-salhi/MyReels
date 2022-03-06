@@ -1,6 +1,8 @@
 {
-  "name": "myreels",
+  "name": "@myreels/client",
   "version": "0.1.0",
+  "author": "Abdeljalil Salhi",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
