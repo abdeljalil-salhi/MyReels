@@ -1,3 +1,7 @@
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+
 const firebaseConfig = {
   apiKey: "AIzaSyA2J2BBMwcRkVqqDiK6OJSV_kxy57zNxSo",
   authDomain: "myreels-61ee8.firebaseapp.com",
@@ -7,3 +11,9 @@ const firebaseConfig = {
   appId: "1:303747165614:web:0332a56f766c0ea1bfec3f",
   measurementId: "G-2V9WL7BR2T",
 };
+
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebaseApp.firestore();
+
+export default db;

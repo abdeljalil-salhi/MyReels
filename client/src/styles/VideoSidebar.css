@@ -1,0 +1,20 @@
+.video__sidebar {
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  color: white;
+}
+
+.video__sidebar__button {
+  padding: 15px 5px;
+  text-align: center;
+}
+
+.video__sidebar__button .MuiSvgIcon-root {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.favorite {
+  font-size: 30px !important;
+}
