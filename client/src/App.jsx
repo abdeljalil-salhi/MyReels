@@ -19,6 +19,7 @@ function App() {
         {videos.map(
           ({ url, user, description, song, likes, comments, shares }) => (
             <Video
+              key={url}
               url={url}
               user={user}
               description={description}

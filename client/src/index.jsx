@@ -12,4 +12,10 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
+if ("IntersectionObserver" in window) {
+  console.log("IntersectionObserver is supported!");
+} else {
+  console.log("IntersectionObserver is not supported!");
+}
+
 reportWebVitals(console.log);
