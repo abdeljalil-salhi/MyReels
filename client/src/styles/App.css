@@ -12,7 +12,7 @@ html {
 .app__videos {
   position: relative;
   height: 90%;
-  max-height: 600px;
+  max-height: 700px;
   border-radius: 20px;
   overflow: scroll;
   width: 350px;
