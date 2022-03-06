@@ -4,6 +4,7 @@ import "../styles/Video.css";
 import { VideoFooter } from "./VideoFooter";
 import { VideoSidebar } from "./VideoSidebar";
 import useElementOnScreen from "../hooks/useElementOnScreen";
+import { VideoPlayButton } from "./VideoPlayButton";
 
 export const Video = ({
   url,
@@ -59,6 +60,7 @@ export const Video = ({
       ></video>
       <VideoFooter user={user} description={description} song={song} />
       <VideoSidebar likes={likes} comments={comments} shares={shares} />
+      {!playing && <VideoPlayButton onVideoTouch={onVideoTouch} />}
     </div>
   );
 };

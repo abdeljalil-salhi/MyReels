@@ -1,0 +1,13 @@
+.video__play__button {
+  position: relative;
+  color: white;
+  border-radius: 20px;
+  bottom: 70%;
+  text-align: center;
+}
+
+.video__play__button > img {
+  cursor: pointer;
+  width: 70px;
+  opacity: 0.8;
+}
